@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateRangeWebApi", "DateRangeWebApi\DateRangeWebApi.csproj", "{7A96FB20-9805-447D-A154-85EB961358E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateRangeWebApi", "DateRangeWebApi\DateRangeWebApi.csproj", "{7A96FB20-9805-447D-A154-85EB961358E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateRangeWebApi.DataLayer", "DateRangeWebApi.DataLayer\DateRangeWebApi.DataLayer.csproj", "{975543B7-8939-4177-B1EB-C93357ACA913}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateRangeWebApi.Repository", "DateRangeWebApi.Repository\DateRangeWebApi.Repository.csproj", "{9F4DADF8-5ECE-42DB-9CDF-C91C0851C7B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateRangeWebApi.Service", "DateRangeWebApi.Service\DateRangeWebApi.Service.csproj", "{7F0015A0-71F1-44C4-8ABF-07B9AEC4B96F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateRangeWebApi.ConsoleClient", "DateRangeWebApi.ConsoleClient\DateRangeWebApi.ConsoleClient.csproj", "{65A8DF66-E750-4D42-A7FD-265F6BFAD105}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{7A96FB20-9805-447D-A154-85EB961358E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A96FB20-9805-447D-A154-85EB961358E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A96FB20-9805-447D-A154-85EB961358E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{975543B7-8939-4177-B1EB-C93357ACA913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{975543B7-8939-4177-B1EB-C93357ACA913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{975543B7-8939-4177-B1EB-C93357ACA913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{975543B7-8939-4177-B1EB-C93357ACA913}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F4DADF8-5ECE-42DB-9CDF-C91C0851C7B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F4DADF8-5ECE-42DB-9CDF-C91C0851C7B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F4DADF8-5ECE-42DB-9CDF-C91C0851C7B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F4DADF8-5ECE-42DB-9CDF-C91C0851C7B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F0015A0-71F1-44C4-8ABF-07B9AEC4B96F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F0015A0-71F1-44C4-8ABF-07B9AEC4B96F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F0015A0-71F1-44C4-8ABF-07B9AEC4B96F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F0015A0-71F1-44C4-8ABF-07B9AEC4B96F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65A8DF66-E750-4D42-A7FD-265F6BFAD105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65A8DF66-E750-4D42-A7FD-265F6BFAD105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65A8DF66-E750-4D42-A7FD-265F6BFAD105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65A8DF66-E750-4D42-A7FD-265F6BFAD105}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

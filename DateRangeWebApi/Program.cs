@@ -19,6 +19,10 @@ namespace DateRangeWebApi
 
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
+                .ConfigureAppConfiguration((builderContext,config)=> 
+                {
+                    config.AddJsonFile("connectionsettings.Development.json");
+                })
                 .UseStartup<Startup>()
                 .Build();
     }

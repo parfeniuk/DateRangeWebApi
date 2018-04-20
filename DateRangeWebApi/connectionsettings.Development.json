@@ -1,0 +1,5 @@
+﻿{
+  "ConnectionStrings": {
+    "DateRangeConnection": "Server=(localdb)\\MSSQLLocalDB;Database=DateRangeDb20180419;Trusted_Connection=True;MultipleActiveResultSets=true"
+  }
+}
